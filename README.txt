@@ -1,7 +1,10 @@
 Unsupervised Learning - abuch6 Amisha Buch
 
 Before running the project, you will need to install all the requirements from the requirements.txt file.
-This project runs in python 3.
+- You would require Python 3.7, Pandas and sklearn
+- An IDE which supports running Jython
+- You can use Eclipse, with PyDev installed from the market place.
+- Plotting code is in Python 3.7, Pandas and matplotlib
 
 Folder structure
 - You will need to create two folders,diabetes and phishing for the output csv files as well as the plots.
@@ -18,6 +21,7 @@ Other files
 - dataset_loader.py loads and pre-processes datasets.
 - clustering.py, pca.py, ica.py, rp.py, rfp.py and neural_network.py will be automatically run from the experiment files.
 
+All the results of accuracy and computation times are stored in .csv files in the respective folders mentioned above. The diabetes/phishing folder contains the graphs of the comparisons.
 All the code for this project can be found at:
 https://github.com/mishabuch/Assignment-3
 
